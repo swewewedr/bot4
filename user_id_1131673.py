@@ -46,7 +46,7 @@ def id_1131673():
     }
 
   params = (
-    ('userId', '1131673'),
+    ('userId', '1189063'),
     ('account', '962586'),
     )
 
@@ -58,7 +58,7 @@ def id_1131673():
     no4 = (u['result']['nickName'])
     noooo = (u['result']['isLive'])
     for live in '%s'% noooo:
-      if live == '0':
+      if live == '1':
         urlaqui = (u['result']['liveData']['hls_url'])
         mod = re.sub('http://live.gchao.cn', 'https://vast-castle-16286.herokuapp.com', urlaqui)
         k = re.findall('23331_.*m3u8', urlaqui)
