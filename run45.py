@@ -1,8 +1,8 @@
 from time import sleep
-from user_id_1115177 import id_1115177
+from user_id_1131673 import id_1131673
 while 1:
      try:
-         id_883617()
+         id_1131673()
          sleep(120)
      except:
          pass
